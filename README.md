@@ -1,2 +1,1 @@
-# CHC_Cultural
-Repositorio trabajo cultural
+Main branch para el proyecto de M12 HTML y CSS.

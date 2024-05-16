@@ -1,0 +1,229 @@
+/*/ Header /*/
+
+header {
+    background-color: #c1bdb5;
+    margin: 10px;
+    border-radius: 20px;
+    color: #440c0c;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.logo {
+    margin: 0;
+    margin-left: 10px;
+    max-width: 7%;
+    width: 7%;
+    padding-top: 5px;
+}
+
+.titulo_logo {
+    font-family: "Yellowtail", cursive;
+    padding-top: 5px;
+}
+
+.menu   {
+    text-decoration: none;
+    font-size: 25px;
+    list-style: none;
+    padding-top: 5px;
+}
+
+    li{
+        list-style: none;
+    }
+
+    .a_menu{
+
+        text-decoration: none;
+        color: #440c0c;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
+    #a_inicio{
+        text-decoration: none;
+        color: #440c0c;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding-left: 60px;
+
+    }
+
+    .login {
+        max-width: 80px;
+        width: 80px;
+        height: 10%;
+        padding-top: 15px;
+        float: right;
+        margin-left: 120px;
+    }
+
+.banner1{
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    max-width: 1310px;
+    width: 1310px;
+    margin-right: 10px;
+    height: 500px;
+}
+
+/*/ Body /*/
+
+body {
+    background-color: #440c0c;
+    min-width: 1310px;
+    width: 1340px; 
+    height: 100vh;
+    align-items: center; 
+    display: table; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+#marcas_articulos{
+    color: #440c0c;
+    font-family: sans-serif;
+    background-color: #c1bdb5;
+    border-radius: 20px;
+}
+
+.p_texto_index {
+    color: #440c0c;
+    font-family: sans-serif;
+    font-size: 14pt;
+    background-color: #c1bdb5;
+    text-align: left;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+/*/ Footer /*/
+
+.footer{
+    background-color: #c1bdb5;
+
+}
+
+/*/ Otros /*/
+
+
+/*/ Fuente insertada de Google Fonts /*/
+
+.yellowtail-regular {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /*/ Registro /*/
+
+  .formulario_fieldset {
+    border-radius: 20px;
+    background-color: #b8ecfc;
+    border: none;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .h1_registro {
+
+    font-family: sans-serif;
+    color: #151d4e;
+    text-align: left;
+  }
+
+ .p_registro {
+    font-family: sans-serif;
+    color: #5e6d92;
+    text-align: left;
+ }
+
+ .coche_registro {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+ }
+
+ #label_formulario,#a_politica {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    color: #3b4357;
+    align-items: left;
+    text-align: left;
+ }
+
+ input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 1px grey solid;
+ }
+
+input::placeholder {
+    padding-left: 10px;
+ }
+
+ #submit {
+    color: white;
+    background-color: #207ce4;
+    font-family: sans-serif;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    margin-top: 2%;
+ }
+
+ /*/ Registro completado /*/
+
+ .imagen_registro {
+    margin-top: 15%;
+ }
+
+ .registro_completado {
+    font-family: sans-serif;
+    color: #440c0c;
+    background-color: #c1bdb5;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+ }
+
+ .imagen_registro {
+    width: 15%;
+ }
+
+/*/ Politica de privacidad /*/
+
+.politica {
+    color: #440c0c;
+    background-color: #c1bdb5;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    text-align: justify;
+}
