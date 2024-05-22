@@ -286,3 +286,44 @@ input::placeholder {
     margin-bottom: 5px;
     margin-left: 10px;
 }
+
+
+#coche_articulo {
+    background-color: #c1bdb5;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#coche_articulo h2 {
+    color: #440c0c;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    float: left;
+}
+
+
+#articulo_titulo {
+    overflow: hidden;
+}
+
+#logo_articulo {
+    float: left;
+    width: 100px;
+
+}
+
+#h2_titulo {
+    float:left;
+    padding-top: 5px;
+}
+
+#h2_precio {
+    position: absolute;
+    right: 40px;
+    padding-top: 5px;
+}
+
