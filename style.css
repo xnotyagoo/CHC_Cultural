@@ -61,7 +61,6 @@ header {
         float: right;
         margin-left: 120px;
     }
-
 .banner1{
     border-radius: 20px;
     margin-top: 25px;
@@ -134,6 +133,7 @@ body {
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
+    
   }
 
   .h1_registro {
@@ -147,6 +147,7 @@ body {
     font-family: sans-serif;
     color: #5e6d92;
     text-align: left;
+    
  }
 
  .coche_registro {
@@ -174,6 +175,7 @@ body {
     padding-right: 10px;
     border-radius: 20px;
     border: 1px grey solid;
+    
  }
 
 input::placeholder {
@@ -226,4 +228,61 @@ input::placeholder {
     margin-right: 10px;
     font-family: sans-serif;
     text-align: justify;
+}
+
+
+
+/*/ Compra /*/
+
+#container{
+    width: 100%;
+    min-height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+#container h2 {
+    font-family: sans-serif;
+    color: #c1bdb5;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 60px;
+    text-decoration: underline;
+}
+
+#compra{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 2em;
+}
+.compra-caja{
+    border: 1px solid #CCCCCC;
+    background-color: #c1bdb5;
+    margin-left: 1em;
+    margin-top: 1em;
+    overflow: hidden;
+    padding: 1em;
+    border-radius: 20px;
+}
+.compra-caja img{
+    width: 100%;
+    padding-top: 1px;
+    border-radius: 5px;
+}
+.compra-caja p{
+    line-height: 1.5em;
+    text-align: left;
+    font-family: sans-serif;
+    color: #440c0c;
+    font-weight: bold;
+}
+
+.compra-caja h4 {
+    text-align: left;
+    font-family: sans-serif;
+    color: #440c0c;
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
 }
