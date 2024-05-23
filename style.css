@@ -275,6 +275,7 @@ input::placeholder {
     font-family: sans-serif;
     color: #440c0c;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .compra-caja h4 {
@@ -285,6 +286,16 @@ input::placeholder {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
+}
+
+.compra-caja a {
+    background-color: #440c0c;
+    color: #c1bdb5;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+
 }
 
 
@@ -308,12 +319,6 @@ input::placeholder {
 
 #articulo_titulo {
     overflow: hidden;
-}
-
-#logo_articulo {
-    float: left;
-    width: 150px;
-
 }
 
 #h2_titulo {
@@ -386,3 +391,45 @@ input::placeholder {
     border-radius: 20px;
     float: left;
 }
+
+#mustang {
+    float: left;
+    width: 120px;
+    padding-left: 15px;
+}
+
+#seat {
+    float: left;
+    width: 120px;
+    padding-left: 15px;
+}
+
+#porsche {
+    float: left;
+    width: 90px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#bmw {
+    float: left;
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#audi {
+    float: left;
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+#mercedes {
+    float: left;
+    width: 120px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
