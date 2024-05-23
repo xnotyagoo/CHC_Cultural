@@ -292,7 +292,7 @@ input::placeholder {
     background-color: #c1bdb5;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -312,18 +312,77 @@ input::placeholder {
 
 #logo_articulo {
     float: left;
-    width: 100px;
+    width: 150px;
 
 }
 
 #h2_titulo {
     float:left;
-    padding-top: 5px;
+    padding-top: 15px;
+    font-size: 25pt;
 }
 
 #h2_precio {
     position: absolute;
-    right: 40px;
-    padding-top: 5px;
+    right: 62px;
+    padding-top: 15px;
+    font-size: 25pt;
 }
 
+#detalles {
+    background-color: #c1bdb5;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#detalles h2 {
+    color: #440c0c;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+#texto a {
+    background-color: #440c0c;
+    color: #c1bdb5;
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+#texto a:hover {
+    background-color: #771717;
+    box-shadow: 0 0 10px 5px rgba(175, 16, 16, 0.3);
+    transition: all 0.7s;
+
+}
+#detalles p {
+    color: #440c0c;
+    font-family: sans-serif;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+}
+
+#detalles img  {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    float: left;
+}
