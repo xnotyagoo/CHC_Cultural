@@ -133,6 +133,71 @@
 }
 
 
+/*/ MENU DESPLEGABLE LOGIN /*/
+
+.nav_link, .menu_desplegable2 li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #440c0c;
+}
+
+.menu_desplegable a:hover {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(117, 117, 117, 0.575);
+
+}
+
+.menu_desplegable2 {
+    position: absolute;
+    min-width: 100px;
+    width: 130px;
+    margin-top: 100px;
+    padding: 10px -10px;
+    margin: 10px -30px;
+    background: #d6d2c9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(193, 189, 181, 0.575);
+    font-size: 12pt;
+    display: none;
+}
+
+.desplegable2:hover .menu_desplegable2{
+    display: block;
+}
+
+.menu_desplegable2 a:hover {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(117, 117, 117, 0.575);
+
+}
+
+.nav_link2, .menu_desplegable2 li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #440c0c;
+}
+
+.nav_link2 a {
+    text-decoration: none;
+    color: #440c0c;
+}
+
 /*/----BODY----/*/
 
 body {
