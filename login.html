@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
-    <title>CHC | Comprar Seat 1400</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CHC | Inicio</title>
 </head>
 <body id="body">
     <!--Header-->
@@ -53,41 +53,31 @@
             </nav>
         </div>
     </header>
-   <!--Body-->
-    <div id="coche_articulo">
-        <div id="articulo_titulo">
-            <img src="../imagenes/logos/seat.png" id="seat" alt="">
-            <h2 id="h2_titulo">Seat 1400</h2>
-            <h2 id="h2_precio">10.700€</h2>
-        </div>
+    <!--body-->
+    <div class="formulario_registro">
+        <form action="registro_completado.html" method="post" enctype="multipart/form-data">
+            <fieldset class="formulario_fieldset">
+                <div id="bloque_registro">
+                    <h1 class="h1_registro">Inicia Sesion !</h1>
+                    <label for="email" id="label_formulario">Correo Electronico</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Correo electronico" required>
+                    <br>
+                    <label for="contrasena" id="label_formulario">Contraseña</label>
+                    <br>
+                    <input type="submit" value="Inicia sesion" id="submit">
+                    <br>
+                </div>
+            </fieldset>
+        </form>
     </div>
-    <div id="detalles">
-        <h2>Detalles:</h2>
-        <div id="texto">
-        <p>El Seat 1400 es un hito significativo en la historia del automóvil español, marcando el inicio de la 
-            producción de vehículos de pasajeros por parte de Seat. Introducido en 1953, este sedán representaba 
-            un paso importante para la industria automotriz española, ofreciendo a los conductores un vehículo
-            moderno y asequible. Con un diseño elegante y aerodinámico para su época, el Seat 1400 se destacaba 
-            por su comodidad y confiabilidad en la carretera. Equipado con un motor de cuatro cilindros, este 
-            automóvil proporcionaba un rendimiento sólido para las necesidades de transporte diario. A lo largo de los años, 
-            el Seat 1400 se ha convertido en un símbolo de la industria automotriz española, recordando una época de 
-            crecimiento y desarrollo para Seat y para la movilidad en España.</p>
-            <a href="">Comprar vehiculo</a>
-        </div>
-            <img src="../imagenes/imagenes_compra/seat.jpg" alt="">
-    </div>
-            
-
-       
-
-
     <!--Footer-->
     <footer id="footer">
-        <img src="../imagenes/logo.png">
-        <img src="../imagenes/insta.png">
-        <img src="../imagenes/insta.png">
-        <img src="../imagenes/insta.png">
-        <img src="../imagenes/insta.png">
+        <img src="imagenes/logo.png">
+        <img src="imagenes/insta.png">
+        <img src="imagenes/insta.png">
+        <img src="imagenes/insta.png">
+        <img src="imagenes/insta.png">
         <a href="">Mercedes</a>
         <a href="">Mercedes</a>
         <a href="">Mercedes</a>

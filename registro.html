@@ -15,21 +15,43 @@
 <body id="body">
     <!--Header-->
     <header>
-        <img src="imagenes/logo.png" alt="Logo de CHC" title="Logo de CHC" class="logo">
-        <h1 class="titulo_logo">CHC</h1>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html" class="a_menu" id="a_inicio">Inicio</a>
-                    <a href="" class="a_menu">Servicios</a>
-                    <a href="" class="a_menu">Articulos</a>
-                    <a href="calendario.html" class="a_menu">Calendario</a>
-                    <a href="guia.html" class="a_menu">Guia</a>
-                    <a href="contacto.html" class="a_menu">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="imagenes/login.png" alt="login chc" title="login chc" class="login">
+        <div class="container">
+            <nav class="navbar">
+                
+                <ul class="nav_links">
+                    <img src="./imagenes/logo.png" alt="" id="logo_menu">
+                    <li class="nav_link">
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li class="nav_link desplegable">
+                        <a href="#">Servicios</a>
+                        <ul class="menu_desplegable">
+                            <li><a href="./compra.html">Compra</a></li>
+                            <li><a href="./venta.html">Venta</a></li>
+                            <li><a href="./alquiler.html">Alquiler</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav_link desplegable">
+                        <a href="#">Articulos</a>
+                        <ul class="menu_desplegable">
+                            <li><a href="./articulos/interior.html">Interior</a></li>
+                            <li><a href="./articulos/exterior.html">Exterior</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_link">
+                        <a href="#./about.html">Quienes somos</a>
+                    </li>
+                    <li class="nav_link desplegable">
+                        <a href="#"><img src="./imagenes/login3.png" alt="" id="login_menu"></a>
+                        <ul class="menu_desplegable">
+                            <li><a href="./registro.html">Registrate</a></li>
+                            <li><a href="./login.html">Inicia sesion</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!--body-->
     <div class="formulario_registro">
