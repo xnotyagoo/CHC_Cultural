@@ -1,4 +1,14 @@
-/*/ Header /*/
+/*/ Fuente insertada de Google Fonts /*/
+
+.yellowtail-regular {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*/ ESTRUCTURA BASICA (Header, Body, Footer) /*/
+
+/*/----HEADER----/*/
 
 header {
     background-color: #c1bdb5;
@@ -72,7 +82,7 @@ header {
     height: 500px;
 }
 
-/*/ Body /*/
+/*/----BODY----/*/
 
 body {
     background-color: #440c0c;
@@ -105,52 +115,53 @@ body {
     padding-right: 100px;
 }
 
-/*/ Footer /*/
+/*/----FOOTER----/*/
 
 .footer{
     background-color: #c1bdb5;
-
 }
 
-/*/ Otros /*/
+
+/*/ Codigo especifico /*/
 
 
-/*/ Fuente insertada de Google Fonts /*/
+/*/ Pagina registro /*/
 
-.yellowtail-regular {
-    font-family: "Yellowtail", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+.formulario_registro {
+    align-items: left;
+}
 
-
-  /*/ Registro /*/
-
-  .formulario_fieldset {
+.formulario_fieldset {
     border-radius: 20px;
-    background-color: #b8ecfc;
+    background-color: #c1bdb5;
     border: none;
     position: relative;
     margin-left: 10px;
     margin-right: 10px;
+    display: flex;
     
   }
 
-  .h1_registro {
+#bloque_registro {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.h1_registro {
 
     font-family: sans-serif;
-    color: #151d4e;
+    color: #440c0c;
     text-align: left;
   }
 
  .p_registro {
     font-family: sans-serif;
-    color: #5e6d92;
+    color: #440c0c;
     text-align: left;
     
  }
 
- .coche_registro {
+.coche_registro {
 
     position: absolute;
     top: 0;
@@ -159,16 +170,16 @@ body {
     height: 100%;
  }
 
- #label_formulario,#a_politica {
+#label_formulario,#a_politica {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: sans-serif;
-    color: #3b4357;
+    color: #454546;
     align-items: left;
     text-align: left;
  }
 
- input {
+input {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -182,9 +193,9 @@ input::placeholder {
     padding-left: 10px;
  }
 
- #submit {
-    color: white;
-    background-color: #207ce4;
+#submit {
+    color: #c1bdb5;
+    background-color: #440c0c;
     font-family: sans-serif;
     border: none;
     padding-top: 15px;
@@ -193,13 +204,19 @@ input::placeholder {
     padding-right: 25px;
     border-radius: 7px;
     margin-top: 2%;
- }
+}
 
- /*/ Registro completado /*/
+#submit:hover {
+    background-color: #771717;
+    box-shadow: 0 0 10px 5px rgba(175, 16, 16, 0.3);
+    transition: all 0.7s;
+}
 
- .imagen_registro {
+ /*/ Pagina registro completado /*/
+
+.imagen_registro {
     margin-top: 15%;
- }
+}
 
  .registro_completado {
     font-family: sans-serif;
@@ -208,13 +225,14 @@ input::placeholder {
     border-radius: 20px;
     padding-top: 1px;
     padding-bottom: 1px;
- }
+}
 
  .imagen_registro {
     width: 15%;
- }
+}
 
-/*/ Politica de privacidad /*/
+
+ /*/ Politica de privacidad /*/
 
 .politica {
     color: #440c0c;
@@ -231,10 +249,9 @@ input::placeholder {
 }
 
 
+ /*/ Pagina web compra general /*/
 
-/*/ Compra /*/
-
-#container{
+ #container{
     width: 100%;
     min-height: 600px;
     margin-left: 50px;
@@ -289,15 +306,12 @@ input::placeholder {
 }
 
 .compra-caja a {
-    background-color: #440c0c;
-    color: #c1bdb5;
-    text-decoration: none;
-    font-size: 15pt;
-    font-family: sans-serif;
-    padding: 10px 10px 10px 10px;
-
+ margin-top: 10px;
+ text-decoration: none;
 }
 
+
+/*/ Pagina especifica compra /*/
 
 #coche_articulo {
     background-color: #c1bdb5;
@@ -392,6 +406,9 @@ input::placeholder {
     float: left;
 }
 
+
+/*/ Codigo especifico para cada coche /*/
+
 #mustang {
     float: left;
     width: 120px;
@@ -431,5 +448,4 @@ input::placeholder {
     padding-left: 15px;
     padding-top: 15px;
 }
-
 
